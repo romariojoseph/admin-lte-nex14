@@ -42,14 +42,14 @@ const Header = (props: any) => {
                 className="avatarProfile"
                 alt="Avatar"
               />{" "}
-              Sam <b className="caret"></b>
+              Rosa <b className="caret"></b>
             </div>
             <div
               className={`dropdown-menu ${menu ? "show" : ""}`}
               onMouseLeave={() => setMenu(false)}
             >
               <button type="button" className="dropdown-item">
-                <i className="fa fa-user"></i> Profile
+                <i className="fa fa-user"></i> Perfil
               </button>
               <button
                 type="button"
@@ -60,7 +60,7 @@ const Header = (props: any) => {
                 }}
               >
                 <i className="nav-icon fas fa-arrow-right-from-bracket"></i>{" "}
-                Logout
+                Sair
               </button>
             </div>
           </div>

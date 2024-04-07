@@ -1,17 +1,17 @@
 import { Card, PanelContent } from "@/components";
 import React from "react";
 
-const About = () => {
+const Alunos = () => {
   return (
     <PanelContent
-      title="About"
+      title="Alunos"
       menu="Data Master"
-      submenu="About"
+      submenu="Alunos"
       headerContent
     >
-      <Card title="About">About</Card>
+      <Card title="Alunos">Alunos</Card>
     </PanelContent>
   );
 };
 
-export default About;
+export default Alunos;

@@ -19,7 +19,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <Layout>
         <Head>
           <meta name="viewport" content="initial-scale=1, width=device-width" />
-          <title>Admin Template</title>
+          <title>Pagina</title>
         </Head>
 
         <Suspense fallback={<LoadingApp />}>

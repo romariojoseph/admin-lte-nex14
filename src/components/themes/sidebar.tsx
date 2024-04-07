@@ -7,7 +7,7 @@ const Sidebar = () => {
   return (
     <aside className="main-sidebar sidebar-dark-primary elevation-4">
       <div className="brand-link text-center">
-        <span className="brand-text font-weight-light text-center">ADMIN</span>
+        <span className="brand-text font-weight-light text-center">KASSULA</span>
       </div>
       <div className="sidebar">
         <nav className="mt-2">
